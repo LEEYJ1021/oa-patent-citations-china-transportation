@@ -1,0 +1,22 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step3,H2,ZTP period premium 2003-2009 (no lc),oa_P0,12020,2.109,1.192,3.732,0.013,
+step3,H2,ZTP period premium 2010-2014 (no lc),oa_P1,12020,1.601,1.091,2.352,0.018,
+step3,H2,ZTP period premium 2015-2019 (no lc),oa_P2,12020,1.285,1.071,1.543,0.009,
+step3,H2,ZTP period premium 2020-2024 (no lc),oa_P3,12020,1.72,1.284,2.304,<.001,
+step3,H2,ZTP last minus first (no lc),contrast,12020,0.816,0.441,1.507,0.500,
+step3,H2,ZTP 2015-19 minus 2003-09 (no lc) [reparametrised],oa_negP0,12020,0.609,0.331,1.122,0.107,0.161
+step3,H2,ZTP period premium 2003-2009 (+ lc),oa_P0,12020,1.643,1.026,2.631,0.040,
+step3,H2,ZTP period premium 2010-2014 (+ lc),oa_P1,12020,1.274,0.89,1.824,0.176,
+step3,H2,ZTP period premium 2015-2019 (+ lc),oa_P2,12020,1.223,1.014,1.474,0.036,
+step3,H2,ZTP period premium 2020-2024 (+ lc),oa_P3,12020,1.605,1.246,2.068,<.001,
+step3,H2,ZTP last minus first (+ lc),contrast,12020,0.977,0.589,1.622,0.926,
+step3,H2,ZTP 2015-19 minus 2003-09 (+ lc) [reparametrised],oa_negP0,12020,0.744,0.441,1.258,0.257,0.312
+step3,H2,"ZTP 2015-19 minus 2003-09, pub<=2019 (no lc)",oa_negP0,6640,0.591,0.322,1.086,0.087,0.155
+step3,H2,"ZTP 2015-19 minus 2003-09, pub<=2019 (+ lc)",oa_negP0,6640,0.733,0.435,1.235,0.231,0.258
+step3,H2,"ZTP 2015-19 minus 2003-09, Gold/Hybrid vs closed (no lc)",oa_negP0,10553,0.83,0.477,1.444,0.494,0.535
+step3,H2,ZTP OA x Post2013 (no lc) [secondary; window includes 2020-24],oa_post,12020,0.692,0.454,1.053,0.082,0.125
+step3,H2,ZTP OA x Post2013 (+ lc) [secondary],oa_post,12020,0.844,0.545,1.308,0.433,0.438
+step3,H2,ZTP OA x Post2015 (no lc) [secondary],oa_post,12020,0.8,0.512,1.25,0.312,0.354
+step3,H2,ZTP OA x Post2015 (+ lc) [secondary],oa_post,12020,0.958,0.631,1.453,0.832,0.846
+step3,H2,ZTP OA x lagged cluster OA share (no lc) [exploratory],oa_x_lag,11596,1.059,0.467,2.404,0.886,0.891
+step3,H2,ZTP OA x lagged cluster OA share (+ lc) [exploratory],oa_x_lag,11596,1.134,0.494,2.6,0.758,0.728

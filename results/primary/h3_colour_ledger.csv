@@ -1,0 +1,21 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step3,H3,ZTP M0 colour only,c_gold,11955,1.33,1.122,1.575,0.002,0.002
+step3,H3,ZTP M0 colour only,c_green,11955,2.11,1.786,2.493,<.001,0.001
+step3,H3,ZTP M0 colour only,c_hybrid,11955,1.758,1.311,2.357,<.001,
+step3,H3,ZTP M0 colour only,c_bronze,11955,0.974,0.77,1.232,0.818,
+step3,H3,ZTP M0 - Green/Gold,green_minus_gold,11955,1.587,1.219,2.067,0.001,
+step3,H3,ZTP M1 + lc,c_gold,11955,1.303,1.104,1.537,0.003,0.007
+step3,H3,ZTP M1 + lc,c_green,11955,1.526,1.291,1.805,<.001,0.001
+step3,H3,ZTP M1 + lc,c_hybrid,11955,1.187,0.971,1.451,0.092,
+step3,H3,ZTP M1 + lc,c_bronze,11955,0.876,0.703,1.091,0.224,
+step3,H3,ZTP M1 + lc - Green/Gold,green_minus_gold,11955,1.172,0.894,1.536,0.239,
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_gold,11955,1.366,1.144,1.632,0.001,0.004
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_green,11955,1.498,1.254,1.789,<.001,0.001
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_hybrid,11955,1.18,0.952,1.462,0.125,
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_bronze,11955,0.908,0.727,1.133,0.377,
+step3,H3,ZTP M2 - Green/Gold,green_minus_gold,11955,1.096,0.807,1.489,0.541,
+step3,H3,"ZTP M1 Green/Gold, 2003-2014",green_minus_gold,2084,1.353,0.918,1.994,0.120,
+step3,H3,"ZTP M1 Green/Gold, 2015-2024",green_minus_gold,9871,1.042,0.827,1.312,0.717,
+step4,H3,ZTP M0 - Bronze/Gold,bronze_minus_gold,11955,0.732,0.589,0.91,0.007,
+step4,H3,ZTP M1 + lc - Bronze/Gold,bronze_minus_gold,11955,0.672,0.544,0.831,<.001,
+step4,H3,cluster bootstrap: gap(M0)/gap(M1) ratio (P7),gap_reduction,11955,1.355,1.243,1.489,0.007,

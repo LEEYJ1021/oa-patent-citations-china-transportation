@@ -1,0 +1,7 @@
+xvars,n,alpha,loglik,la_at_bound,note
+oa,12020,22026.5,-14026.6,True,alpha = exp(10) upper bound = log-series limit; ZTNB is a direction check only
+oa+lc,12020,22026.5,-13584.4,True,alpha = exp(10) upper bound = log-series limit; ZTNB is a direction check only
+oa+lc_c+oa_x_lc,12020,22026.5,-13567.0,True,alpha = exp(10) upper bound = log-series limit; ZTNB is a direction check only
+oa+oa_x_yr,6640,22026.5,-9805.02,True,alpha = exp(10) upper bound = log-series limit; ZTNB is a direction check only
+colours (M0),11955,22026.5,-13878.9,True,alpha = exp(10) upper bound = log-series limit; ZTNB is a direction check only
+colours + lc (M1),11955,22026.5,-13475.2,True,alpha = exp(10) upper bound = log-series limit; ZTNB is a direction check only

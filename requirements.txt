@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+statsmodels>=0.14
+matplotlib>=3.8
+tabulate>=0.9
+pillow>=10.0
+# only for the data-driven figures / UMAP (scripts/figures/make_data_figures.py, make_fig3_umap.py)
+# sentence-transformers>=2.7
+# umap-learn>=0.5.5
+# scikit-learn>=1.4
+# only for tests
+pytest>=8.0

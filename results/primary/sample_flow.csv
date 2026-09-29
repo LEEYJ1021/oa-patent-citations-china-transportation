@@ -1,0 +1,15 @@
+step,records
+raw export rows,13350
+empty padding rows,-1000
+missing patent-citation count,-2
+= records after cleaning,12348
+missing publication year,-42
+published 2026,-4
+= records with valid year,12302
+published before 2003,-26
+published 2025 (partial year),-256
+= main analysis sample (2003-2024),12020
+unique papers (Lens ID) in main sample,9903
+records with unclassified colour ('other'),-65
+= colour-model sample,11955
+unique papers in colour models,9846

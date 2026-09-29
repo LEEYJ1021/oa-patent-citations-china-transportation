@@ -1,0 +1,3 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step4,H2b,"ZTP pub<=2019 OA x year, per 5 years (no lc)",oa_x_yr,6640,0.814,0.652,1.017,0.069,0.116
+step4,H2b,"ZTP pub<=2019 OA x year, per 5 years (+ lc)",oa_x_yr,6640,0.908,0.732,1.128,0.369,0.405

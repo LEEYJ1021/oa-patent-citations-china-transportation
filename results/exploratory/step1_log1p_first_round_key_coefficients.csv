@@ -1,0 +1,20 @@
+spec,term,n,beta_log1p,lo,hi,p_t,p_wcb
+H1 total (no lc),oa,12020,0.073,0.0456,0.1004,<.001,0.001
+H1 + lc,oa,12020,0.0614,0.0353,0.0876,<.001,0.001
+H1 + lc + pub-type FE + field tags,oa,12020,0.0791,0.0532,0.1049,<.001,0.001
+"Gold/Hybrid vs closed, no lc",oa_pub,10553,0.0511,0.0192,0.083,0.003,0.004
+"Gold/Hybrid vs closed, + lc",oa_pub,10553,0.0548,0.0248,0.0848,<.001,0.002
+"Green vs closed, + lc",oa_gr,6209,0.1285,0.0781,0.1788,<.001,0.001
+Period premium 2003-09 (no lc),oa_P0,12020,0.1831,0.0446,0.3215,0.012,
+Period premium 2010-14 (no lc),oa_P1,12020,0.2043,0.1296,0.279,<.001,
+Period premium 2015-19 (no lc),oa_P2,12020,0.0725,0.0303,0.1148,0.002,
+Period premium 2020-24 (no lc),oa_P3,12020,0.0268,0.0051,0.0485,0.018,
+Last minus first (no lc),diff,12020,-0.1563,-0.2929,-0.0196,0.027,
+Last minus first (+ lc),diff,12020,-0.0885,-0.2236,0.0465,0.189,
+OA x lagged cluster OA share (no lc),oa_x_lag,11596,0.0034,-0.1159,0.1227,0.953,0.962
+OA x lagged cluster OA share (+ lc),oa_x_lag,11596,-0.0114,-0.1242,0.1014,0.837,0.841
+Green minus Gold M0,green_minus_gold,12020,0.135,0.0814,0.1886,<.001,
+Green minus Gold M1,green_minus_gold,12020,0.0606,0.0087,0.1125,0.024,
+Green minus Gold M2,green_minus_gold,12020,0.0457,-0.0075,0.0989,0.089,
+Decomposition: total,total,12020,0.073,0.05,0.101,,
+Decomposition: via academic citations (16% of total),indirect,12020,0.012,0.003,0.025,,

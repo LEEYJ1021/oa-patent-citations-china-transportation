@@ -1,0 +1,8 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step3,H1,ZTP H1 total (no lc),oa,12020,1.524,1.361,1.706,<.001,0.001
+step3,H1,ZTP H1 + lc,oa,12020,1.338,1.211,1.48,<.001,0.001
+step3,H1,ZTP H1 + lc + pub-type FE + field tags,oa,12020,1.374,1.249,1.511,<.001,0.001
+step3,H1,ZTNB H1 total (superseded statsmodels estimator),oa,12020,1.666,1.407,1.974,<.001,
+step3,H1,ZTNB H1 + lc (superseded statsmodels estimator),oa,12020,1.414,1.203,1.662,<.001,
+step3,H1,"ZTP H1 Gold/Hybrid vs closed (publisher-hosted), no lc",oa_pub,10553,1.289,1.074,1.547,0.008,0.015
+step3,H1,"ZTP H1 Gold/Hybrid vs closed, + lc",oa_pub,10553,1.258,1.053,1.502,0.014,0.029

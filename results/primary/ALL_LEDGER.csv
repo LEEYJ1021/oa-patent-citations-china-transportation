@@ -1,0 +1,105 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step3,H1,ZTP H1 total (no lc),oa,12020,1.524,1.361,1.706,<.001,0.001
+step3,H1,ZTP H1 + lc,oa,12020,1.338,1.211,1.48,<.001,0.001
+step3,H1,ZTP H1 + lc + pub-type FE + field tags,oa,12020,1.374,1.249,1.511,<.001,0.001
+step3,H1,ZTNB H1 total (superseded statsmodels estimator),oa,12020,1.666,1.407,1.974,<.001,
+step3,H1,ZTNB H1 + lc (superseded statsmodels estimator),oa,12020,1.414,1.203,1.662,<.001,
+step3,H1,"ZTP H1 Gold/Hybrid vs closed (publisher-hosted), no lc",oa_pub,10553,1.289,1.074,1.547,0.008,0.015
+step3,H1,"ZTP H1 Gold/Hybrid vs closed, + lc",oa_pub,10553,1.258,1.053,1.502,0.014,0.029
+step3,H2,ZTP period premium 2003-2009 (no lc),oa_P0,12020,2.109,1.192,3.732,0.013,
+step3,H2,ZTP period premium 2010-2014 (no lc),oa_P1,12020,1.601,1.091,2.352,0.018,
+step3,H2,ZTP period premium 2015-2019 (no lc),oa_P2,12020,1.285,1.071,1.543,0.009,
+step3,H2,ZTP period premium 2020-2024 (no lc),oa_P3,12020,1.72,1.284,2.304,<.001,
+step3,H2,ZTP last minus first (no lc),contrast,12020,0.816,0.441,1.507,0.500,
+step3,H2,ZTP 2015-19 minus 2003-09 (no lc) [reparametrised],oa_negP0,12020,0.609,0.331,1.122,0.107,0.161
+step3,H2,ZTP period premium 2003-2009 (+ lc),oa_P0,12020,1.643,1.026,2.631,0.040,
+step3,H2,ZTP period premium 2010-2014 (+ lc),oa_P1,12020,1.274,0.89,1.824,0.176,
+step3,H2,ZTP period premium 2015-2019 (+ lc),oa_P2,12020,1.223,1.014,1.474,0.036,
+step3,H2,ZTP period premium 2020-2024 (+ lc),oa_P3,12020,1.605,1.246,2.068,<.001,
+step3,H2,ZTP last minus first (+ lc),contrast,12020,0.977,0.589,1.622,0.926,
+step3,H2,ZTP 2015-19 minus 2003-09 (+ lc) [reparametrised],oa_negP0,12020,0.744,0.441,1.258,0.257,0.312
+step3,H2,"ZTP 2015-19 minus 2003-09, pub<=2019 (no lc)",oa_negP0,6640,0.591,0.322,1.086,0.087,0.155
+step3,H2,"ZTP 2015-19 minus 2003-09, pub<=2019 (+ lc)",oa_negP0,6640,0.733,0.435,1.235,0.231,0.258
+step3,H2,"ZTP 2015-19 minus 2003-09, Gold/Hybrid vs closed (no lc)",oa_negP0,10553,0.83,0.477,1.444,0.494,0.535
+step3,H2,ZTP OA x Post2013 (no lc) [secondary; window includes 2020-24],oa_post,12020,0.692,0.454,1.053,0.082,0.125
+step3,H2,ZTP OA x Post2013 (+ lc) [secondary],oa_post,12020,0.844,0.545,1.308,0.433,0.438
+step3,H2,ZTP OA x Post2015 (no lc) [secondary],oa_post,12020,0.8,0.512,1.25,0.312,0.354
+step3,H2,ZTP OA x Post2015 (+ lc) [secondary],oa_post,12020,0.958,0.631,1.453,0.832,0.846
+step3,H2,ZTP OA x lagged cluster OA share (no lc) [exploratory],oa_x_lag,11596,1.059,0.467,2.404,0.886,0.891
+step3,H2,ZTP OA x lagged cluster OA share (+ lc) [exploratory],oa_x_lag,11596,1.134,0.494,2.6,0.758,0.728
+step3,H3,ZTP M0 colour only,c_gold,11955,1.33,1.122,1.575,0.002,0.002
+step3,H3,ZTP M0 colour only,c_green,11955,2.11,1.786,2.493,<.001,0.001
+step3,H3,ZTP M0 colour only,c_hybrid,11955,1.758,1.311,2.357,<.001,
+step3,H3,ZTP M0 colour only,c_bronze,11955,0.974,0.77,1.232,0.818,
+step3,H3,ZTP M0 - Green/Gold,green_minus_gold,11955,1.587,1.219,2.067,0.001,
+step3,H3,ZTP M1 + lc,c_gold,11955,1.303,1.104,1.537,0.003,0.007
+step3,H3,ZTP M1 + lc,c_green,11955,1.526,1.291,1.805,<.001,0.001
+step3,H3,ZTP M1 + lc,c_hybrid,11955,1.187,0.971,1.451,0.092,
+step3,H3,ZTP M1 + lc,c_bronze,11955,0.876,0.703,1.091,0.224,
+step3,H3,ZTP M1 + lc - Green/Gold,green_minus_gold,11955,1.172,0.894,1.536,0.239,
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_gold,11955,1.366,1.144,1.632,0.001,0.004
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_green,11955,1.498,1.254,1.789,<.001,0.001
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_hybrid,11955,1.18,0.952,1.462,0.125,
+step3,H3,ZTP M2 + lc + pub-type FE + field tags,c_bronze,11955,0.908,0.727,1.133,0.377,
+step3,H3,ZTP M2 - Green/Gold,green_minus_gold,11955,1.096,0.807,1.489,0.541,
+step3,H3,"ZTP M1 Green/Gold, 2003-2014",green_minus_gold,2084,1.353,0.918,1.994,0.120,
+step3,H3,"ZTP M1 Green/Gold, 2015-2024",green_minus_gold,9871,1.042,0.827,1.312,0.717,
+step4,H3,ZTP M0 - Bronze/Gold,bronze_minus_gold,11955,0.732,0.589,0.91,0.007,
+step4,H3,ZTP M1 + lc - Bronze/Gold,bronze_minus_gold,11955,0.672,0.544,0.831,<.001,
+step4,H3,cluster bootstrap: gap(M0)/gap(M1) ratio (P7),gap_reduction,11955,1.355,1.243,1.489,0.007,
+step4,H2a,ZTP OA x centred lc (RR per 1 log-unit of academic citations),oa_x_lc,12020,1.146,1.009,1.301,0.037,0.012
+step4,H2a,ZTP OA premium at mean visibility,oa,12020,1.192,1.016,1.399,0.033,
+step4,H2a,ZTP OA premium at lc 10th pct (lc=1.61),oa_at_q,12020,0.911,0.615,1.349,0.628,
+step4,H2a,ZTP OA premium at lc 50th pct (lc=3.64),oa_at_q,12020,1.2,1.028,1.401,0.023,
+step4,H2a,ZTP OA premium at lc 90th pct (lc=5.39),oa_at_q,12020,1.523,1.33,1.744,<.001,
+step4,H2a,"ZTP OA premium, visibility tercile 1 (lowest)",oa,4142,1.079,0.743,1.569,0.677,0.705
+step4,H2a,"ZTP OA premium, visibility tercile 2",oa,3903,1.183,0.94,1.489,0.145,0.187
+step4,H2a,"ZTP OA premium, visibility tercile 3 (highest)",oa,3975,1.751,1.478,2.074,<.001,0.001
+step4,H2b,"ZTP pub<=2019 OA x year, per 5 years (no lc)",oa_x_yr,6640,0.814,0.652,1.017,0.069,0.116
+step4,H2b,"ZTP pub<=2019 OA x year, per 5 years (+ lc)",oa_x_yr,6640,0.908,0.732,1.128,0.369,0.405
+step5,M3,ZTNB H2a OA x centred lc (alpha at bound),oa_x_lc,12020,1.185,1.061,1.325,0.004,
+step5,M3,ZTNB OA premium at lc 10th pct,oa_at_q,12020,0.985,0.717,1.352,0.921,
+step5,M3,ZTNB OA premium at lc 50th pct,oa_at_q,12020,1.391,1.191,1.624,<.001,
+step5,M3,ZTNB OA premium at lc 90th pct,oa_at_q,12020,1.873,1.535,2.286,<.001,
+step5,M3,ZTNB H2b OA x year per 5y (pub<=2019),oa_x_yr,6640,0.852,0.653,1.11,0.222,
+step5,M3,ZTNB M0,c_gold,11955,1.448,1.167,1.797,0.002,
+step5,M3,ZTNB M0,c_green,11955,2.719,2.149,3.44,<.001,
+step5,M3,ZTNB M0,c_hybrid,11955,1.87,1.302,2.686,0.002,
+step5,M3,ZTNB M0,c_bronze,11955,1.024,0.639,1.64,0.920,
+step5,M3,ZTNB M0 - Green/Gold,green_minus_gold,11955,1.877,1.395,2.527,<.001,
+step5,M3,ZTNB M0 - Bronze/Gold,bronze_minus_gold,11955,0.707,0.426,1.173,0.171,
+step5,M3,ZTNB M1 + lc,c_gold,11955,1.394,1.144,1.699,0.002,
+step5,M3,ZTNB M1 + lc,c_green,11955,1.701,1.362,2.125,<.001,
+step5,M3,ZTNB M1 + lc,c_hybrid,11955,1.345,1.01,1.791,0.043,
+step5,M3,ZTNB M1 + lc,c_bronze,11955,0.808,0.507,1.287,0.355,
+step5,M3,ZTNB M1 + lc - Green/Gold,green_minus_gold,11955,1.22,0.943,1.578,0.124,
+step5,M3,ZTNB M1 + lc - Bronze/Gold,bronze_minus_gold,11955,0.58,0.351,0.959,0.035,
+step5,M3,ZTNB H1 total,oa,12020,1.67,1.409,1.98,<.001,
+step5,M3,ZTNB H1 + lc,oa,12020,1.416,1.204,1.667,<.001,
+step5,M5,DEDUP ZTP H1 total (no lc),oa,9903,1.526,1.342,1.734,<.001,0.001
+step5,M5,DEDUP ZTP H1 + lc,oa,9903,1.329,1.198,1.474,<.001,0.001
+step5,M5,DEDUP ZTP H2a OA x centred lc,oa_x_lc,9903,1.129,1.023,1.247,0.018,0.014
+step5,M5,DEDUP ZTP M0 - Green/Gold,green_minus_gold,9846,1.512,1.193,1.915,0.001,
+step5,M5,DEDUP ZTP M0 - Bronze/Gold,bronze_minus_gold,9846,0.694,0.57,0.847,<.001,
+step5,M5,DEDUP ZTP M1 + lc - Green/Gold,green_minus_gold,9846,1.108,0.893,1.375,0.337,
+step5,M5,DEDUP ZTP M1 + lc - Bronze/Gold,bronze_minus_gold,9846,0.639,0.528,0.774,<.001,
+step5,O1,"ZTP repository copy (all papers, no lc)",uw_repo,11905,1.323,1.174,1.49,<.001,0.001
+step5,O1,"ZTP repository copy (all papers, + lc)",uw_repo,11905,1.19,1.061,1.335,0.005,0.003
+step5,O1,"ZTP repository copy (Lens-OA papers only, no lc)",uw_repo,6832,1.079,0.902,1.29,0.391,0.378
+step5,O1,"ZTP repository copy (Lens-OA papers only, + lc)",uw_repo,6832,1.02,0.887,1.174,0.771,0.777
+step5,O1,ZTP Gold only: repository copy vs none (+ lc),uw_repo,5028,0.939,0.828,1.065,0.314,
+step5,O1,ZTP M1 Green split by repository version,c_gold,11850,1.288,1.086,1.527,0.005,
+step5,O1,ZTP M1 Green split by repository version,g_oth [CAVEAT: includes 299 Green records with no version info],11850,1.638,1.248,2.15,0.001,
+step5,O1,ZTP M1 Green split by repository version,g_sub (preprint-only repository copy),11850,1.483,1.217,1.806,<.001,
+step5,O1,ZTP M1 Green split by repository version,c_hybrid,11850,1.112,0.895,1.381,0.324,
+step5,O1,ZTP M1 Green split by repository version,c_bronze,11850,0.842,0.679,1.044,0.111,
+step5,O1,ZTP M1: Green(preprint-only)/Gold,gsub_minus_gold,11850,1.152,0.852,1.556,0.343,
+step5,O1,ZTP M1: Green(other; see caveat)/Gold,goth_minus_gold,11850,1.272,0.909,1.78,0.152,
+step6,C,H1 OA total | SE by institution (G=33),oa,12020,1.524,1.309,1.774,<.001,
+step6,C,"H1 OA total | institution FE, SE by research cluster (G=25)",oa,12020,1.468,1.321,1.631,<.001,
+step6,C,H1 OA + lc | SE by institution (G=33),oa,12020,1.338,1.188,1.508,<.001,
+step6,C,"H1 OA + lc | institution FE, SE by research cluster (G=25)",oa,12020,1.31,1.19,1.443,<.001,
+step6,C,H2a OA x lc_c | SE by institution (G=33),oa_x_lc,12020,1.146,1.046,1.255,0.005,
+step6,C,"H2a OA x lc_c | institution FE, SE by research cluster (G=25)",oa_x_lc,12020,1.156,1.016,1.315,0.029,
+step6,C,H3 Green/Gold M1 | SE by institution (G=33),gap,11955,1.172,0.99,1.386,0.064,
+step6,C,"H3 Green/Gold M1 | institution FE, SE by research cluster (G=25)",gap,11955,1.164,0.899,1.507,0.237,

@@ -1,0 +1,9 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step6,C,H1 OA total | SE by institution (G=33),oa,12020,1.524,1.309,1.774,<.001,
+step6,C,"H1 OA total | institution FE, SE by research cluster (G=25)",oa,12020,1.468,1.321,1.631,<.001,
+step6,C,H1 OA + lc | SE by institution (G=33),oa,12020,1.338,1.188,1.508,<.001,
+step6,C,"H1 OA + lc | institution FE, SE by research cluster (G=25)",oa,12020,1.31,1.19,1.443,<.001,
+step6,C,H2a OA x lc_c | SE by institution (G=33),oa_x_lc,12020,1.146,1.046,1.255,0.005,
+step6,C,"H2a OA x lc_c | institution FE, SE by research cluster (G=25)",oa_x_lc,12020,1.156,1.016,1.315,0.029,
+step6,C,H3 Green/Gold M1 | SE by institution (G=33),gap,11955,1.172,0.99,1.386,0.064,
+step6,C,"H3 Green/Gold M1 | institution FE, SE by research cluster (G=25)",gap,11955,1.164,0.899,1.507,0.237,

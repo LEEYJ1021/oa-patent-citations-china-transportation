@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper and the software as below."
+title: "Replication materials: Open Access and Patent Citations in Chinese Transportation Research, 2003-2024"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Yong-Jae
+    orcid: "https://orcid.org/0000-0002-7664-8001"
+    affiliation: "Hanyang University"
+repository-code: "https://github.com/LEEYJ1021/oa-patent-citations-china-transportation"
+license: MIT
+version: 1.0.0
+date-released: "2026-09-29"
+keywords: [open access, patent citations, science-technology linkage, zero-truncated count models, scientometrics]
+preferred-citation:
+  type: article
+  title: "Open Access and Patent Citations in Chinese Transportation Research, 2003-2024: OA Status, OA Route and Academic Visibility among Patent-Cited Papers"
+  authors:
+    - family-names: Lee
+      given-names: Yong-Jae
+  journal: "Scientometrics (under revision)"
+  year: 2026

@@ -1,0 +1,8 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step5,M5,DEDUP ZTP H1 total (no lc),oa,9903,1.526,1.342,1.734,<.001,0.001
+step5,M5,DEDUP ZTP H1 + lc,oa,9903,1.329,1.198,1.474,<.001,0.001
+step5,M5,DEDUP ZTP H2a OA x centred lc,oa_x_lc,9903,1.129,1.023,1.247,0.018,0.014
+step5,M5,DEDUP ZTP M0 - Green/Gold,green_minus_gold,9846,1.512,1.193,1.915,0.001,
+step5,M5,DEDUP ZTP M0 - Bronze/Gold,bronze_minus_gold,9846,0.694,0.57,0.847,<.001,
+step5,M5,DEDUP ZTP M1 + lc - Green/Gold,green_minus_gold,9846,1.108,0.893,1.375,0.337,
+step5,M5,DEDUP ZTP M1 + lc - Bronze/Gold,bronze_minus_gold,9846,0.639,0.528,0.774,<.001,

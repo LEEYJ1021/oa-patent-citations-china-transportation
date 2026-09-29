@@ -1,0 +1,13 @@
+source,block,spec,term,n,RR,RR_lo,RR_hi,p,p_wcb
+step5,O1,"ZTP repository copy (all papers, no lc)",uw_repo,11905,1.323,1.174,1.49,<.001,0.001
+step5,O1,"ZTP repository copy (all papers, + lc)",uw_repo,11905,1.19,1.061,1.335,0.005,0.003
+step5,O1,"ZTP repository copy (Lens-OA papers only, no lc)",uw_repo,6832,1.079,0.902,1.29,0.391,0.378
+step5,O1,"ZTP repository copy (Lens-OA papers only, + lc)",uw_repo,6832,1.02,0.887,1.174,0.771,0.777
+step5,O1,ZTP Gold only: repository copy vs none (+ lc),uw_repo,5028,0.939,0.828,1.065,0.314,
+step5,O1,ZTP M1 Green split by repository version,c_gold,11850,1.288,1.086,1.527,0.005,
+step5,O1,ZTP M1 Green split by repository version,g_oth [CAVEAT: includes 299 Green records with no version info],11850,1.638,1.248,2.15,0.001,
+step5,O1,ZTP M1 Green split by repository version,g_sub (preprint-only repository copy),11850,1.483,1.217,1.806,<.001,
+step5,O1,ZTP M1 Green split by repository version,c_hybrid,11850,1.112,0.895,1.381,0.324,
+step5,O1,ZTP M1 Green split by repository version,c_bronze,11850,0.842,0.679,1.044,0.111,
+step5,O1,ZTP M1: Green(preprint-only)/Gold,gsub_minus_gold,11850,1.152,0.852,1.556,0.343,
+step5,O1,ZTP M1: Green(other; see caveat)/Gold,goth_minus_gold,11850,1.272,0.909,1.78,0.152,
