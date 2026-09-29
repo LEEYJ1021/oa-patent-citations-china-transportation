@@ -2,7 +2,6 @@
 
 **Replication package for:** Yong-Jae Lee, *Open Access and Patent Citations in Chinese Transportation Research, 2003–2024: OA Status, OA Route and Academic Visibility among Patent-Cited Papers* (under revision, *Scientometrics*).
 
-[![ci](https://github.com/LEEYJ1021/oa-patent-citations-china-transportation/actions/workflows/ci.yml/badge.svg)](https://github.com/LEEYJ1021/oa-patent-citations-china-transportation/actions)
 ![python](https://img.shields.io/badge/python-3.10%20|%203.12-blue)
 ![license](https://img.shields.io/badge/code-MIT-green)
 ![data](https://img.shields.io/badge/record--level%20data-not%20redistributed-lightgrey)
